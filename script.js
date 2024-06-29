@@ -1,3 +1,12 @@
+/*
+localStorage and sessionStorage have the same API. The difference is that localStorage does not expire, 
+while sessionStorage only lasts until the page is closed
+.setItem
+.getItem
+.removeItem
+.clear
+*/
+
 const itemForm = document.getElementById('item-form');
 const itemInput = document.getElementById('item-input');
 const itemList = document.getElementById('item-list');
